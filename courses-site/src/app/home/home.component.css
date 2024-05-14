@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@keyframes colorChangeAnimation{
+    0%{
+        color: #ff6b6b;
+    }
+    25%{
+        color: #5f27cd;
+    }
+    50%{
+        color: #fdcb6e;
+    }
+    75%{
+        color: #6ab04c;
+    }
+    100%{
+        color: #00cec9;
+    }
+}
+
+.fancy-title{
+    font-family: 'Pacifico',cursive;
+    font-size: 10vw;
+    animation:colorChangeAnimation 4s infinite;
+    position: absolute;
+    top:10vw;
+    right:35vw;
+}
+
+.title{
+    font-family:'Pacifico',cursive;
+    font-size: 5vw;
+    position: absolute;
+    top:23vw;
+    right:25vw;
+} */
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    /* background-size: cover; להבטיח שהתמונה תכסה את כל המסך */
+  }
+  .home-container{
+   position: fixed;
+   width: 100vw;
+   height: 100vh;
+   opacity: 0.3;
+   
+  }
+  
+  /* Style the container */
+
+/*   
+  header h1 {
+    font-size: 2.5em;
+  } */
+  
+  /* Style the main content */
+  /* main {
+    padding: 20px;
+  }
+  
+  main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+   */
+   /* .surface-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.example-card {
+  width: 400px; /* גודל הקארד */
+  margin-top: 20px; /* מרווח מעל הקארד */
+  border-radius: 10px; /* חידוש פינות */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* הצללה */
+}
+
+.example-card mat-card-header {
+  padding: 10px; /* רווח פנימי בכותרת */
+}
+
+.example-card mat-card-title,
+.example-card mat-card-subtitle {
+  margin-bottom: 10px; /* מרווח מתחת לכותרת ותת-כותרת */
+}
+
+.example-card mat-card-content {
+  padding: 10px; /* רווח פנימי בתוכן */
+}
+
+.example-card mat-card-actions {
+  display: flex;
+  justify-content: flex-end; /* מיקום הכפתורים לימין */
+  padding: 10px; /* רווח פנימי בתוך הפעולות */
+}
+
+.example-card img {
+  width: 100%; /* אורך מלא לתמונה */
+  border-top-left-radius: 10px; /* חידוש פינות לתמונה */
+  border-top-right-radius: 10px; /* חידוש פינות לתמונה */
+}

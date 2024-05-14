@@ -1,0 +1,100 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 30vw;
+    background-color: #eaf0f6;
+}
+
+.custom-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 1rem;
+
+    /* padding: 0.5 button {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        border: none;
+        background-color: #4a90e2;
+        color: white;
+        cursor: pointer;
+    } */
+
+    button:hover {
+        background-color: #007bff;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    .btn-outline-info {
+        background-color: transparent;
+        border-color: #4a90e2;
+        color: #4a90e2;
+    }
+
+    .btn-outline-info:hover {
+        background-color: #4a90e2;
+        color: white;
+    }
+
+    /* Optional: Additional styling for text inputs */
+    .form-control {
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+
+    /* Optional: Styling for select dropdown */
+    .select-control {
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+
+
+}
+
+.pink {
+    border: crimson 2px solid;
+}
+
+.pink:hover {
+    background-color: crimson;
+    color: #eaf0f6;
+    border: black 2px solid;
+}

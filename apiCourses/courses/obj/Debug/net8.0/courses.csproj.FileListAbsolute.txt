@@ -1,0 +1,96 @@
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.AssemblyInfo.cs
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\appsettings.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\courses.exe
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\courses.deps.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\courses.runtimeconfig.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\courses.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\courses.pdb
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\staticwebassets\msbuild.courses.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\staticwebassets\msbuild.build.courses.props
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.courses.props
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.courses.props
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\scopedcss\bundle\courses.styles.css
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.csproj.Up2Date
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\refint\courses.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.pdb
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\courses.genruntimeconfig.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\Project\courses\courses\obj\Debug\net8.0\ref\courses.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\appsettings.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\courses.exe
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\courses.deps.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\courses.runtimeconfig.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\courses.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\courses.pdb
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.AssemblyInfo.cs
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\staticwebassets\msbuild.courses.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\staticwebassets\msbuild.build.courses.props
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.courses.props
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.courses.props
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\scopedcss\bundle\courses.styles.css
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.csproj.Up2Date
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\refint\courses.dll
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.pdb
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\courses.genruntimeconfig.cache
+C:\Users\user1\Documents\שולמית תכנות\שנה ב\ungular\apiCourses\courses\obj\Debug\net8.0\ref\courses.dll
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.csproj.AssemblyReference.cache
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.AssemblyInfoInputs.cache
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.AssemblyInfo.cs
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.csproj.CoreCompileInputs.cache
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.dll
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\refint\courses.dll
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.pdb
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\appsettings.json
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\courses.exe
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\courses.deps.json
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\courses.runtimeconfig.json
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\courses.dll
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\courses.pdb
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\Videos\project\apiCourses\courses\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\staticwebassets\msbuild.courses.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\staticwebassets\msbuild.build.courses.props
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.courses.props
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.courses.props
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\scopedcss\bundle\courses.styles.css
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.csproj.Up2Date
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\courses.genruntimeconfig.cache
+C:\Users\user1\Videos\project\apiCourses\courses\obj\Debug\net8.0\ref\courses.dll

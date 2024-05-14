@@ -1,0 +1,58 @@
+
+<div class="container mt-4">
+    <mat-card class="example-card">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image">
+                <!-- אם יש תמונה של המרצה, נכניס אותה כאן -->
+                <img mat-card-image src="{{course.imageUrl}}" alt="Course Image">
+            </div>
+            <mat-card-title>Name: {{course.namecourse}}</mat-card-title>
+            <mat-card-subtitle>Course Number: {{course.codeCourse}}</mat-card-subtitle>
+        </mat-card-header>
+      
+        <mat-card-content>
+          <p>
+            <i class="material-icons">schedule</i> Course Start in {{course.dateStart}}
+          </p>
+          <p>
+            <i class="material-icons">group</i> Number of Meetings {{course.accountLessons}}
+          </p>
+          <p>
+            <i class="material-icons">person</i> Lecturers {{course.lecturerId}}
+          </p>
+          <!-- <p>
+            <i class="material-icons">description</i> Syllabus {{course.syllabus}}
+          </p> -->
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-list-check" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3.5 5.5l1.5 1.5l2.5 -2.5" />
+            <path d="M3.5 11.5l1.5 1.5l2.5 -2.5" />
+            <path d="M3.5 17.5l1.5 1.5l2.5 -2.5" />
+            <path d="M11 6l9 0" />
+            <path d="M11 12l9 0" />
+            <path d="M11 18l9 0" />
+          </svg>Syllabus:</p>
+     
+       
+    <ul >
+      <ng-container *ngFor="let item of course.syllabus">
+        <li>{{item}}</li>
+      </ng-container>
+    </ul>
+            <p> <i class="material-icons">{{course.wayOfLearning|learningTypeIcon}}</i>-  The Way of Studying </p> 
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button (click)="onLikeClick()">
+            <mat-icon>thumb_up</mat-icon>
+            {{likes}}
+          </button>
+          <button mat-button (click)="onDislikeClick()">
+            <mat-icon>thumb_down</mat-icon>
+            {{dislikes}}
+          </button>
+
+          </mat-card-actions>
+          <button mat-button (click)="return_func()">return</button> 
+    </mat-card>
+</div>

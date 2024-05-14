@@ -1,0 +1,53 @@
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.cust {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+svg {
+    vertical-align: middle;
+    margin-right: 5px;
+    fill: currentColor;
+}
+.glowing {
+    /* Add your desired glow effect styles here, e.g., box-shadow, border, etc. */
+    /* Example: */
+    box-shadow: 0 0 15px rgba(150, 18, 38, 0.5);
+  }

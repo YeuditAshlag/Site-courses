@@ -1,0 +1,47 @@
+
+<app-header></app-header> 
+<form [formGroup]="courseForm">
+
+    <div>
+        <label for="namecourse">Course name</label>
+        <input id="namecourse" type="text" formControlName="namecourse" />
+    </div>
+    <div>
+        <select formControlName="categoryId">
+            @for (category of categories; track $index) {
+            <option [value]="category.codeCategory?.valueOf()">{{category.nameCategory}}</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label for="accountLessons">Course Duration</label>
+        <input id="accountLessons" type="number" formControlName="accountLessons" />
+    </div>
+    <div>
+        <label for="imageUrl">Image</label>
+        <input id="imageUrl" type="text" formControlName="imageUrl" />
+    </div>
+    <div>
+        <label for="wayOfLearning">Learning way</label>
+        <input id="wayOfLearning" type="radio" value="0" selected formControlName="wayOfLearning" />Frontal
+        <input id="wayOfLearning" type="radio" value="1" formControlName="wayOfLearning" />Zoom
+    </div>
+    <div>
+        <label for="dateStart">Start date </label>
+        <input id="dateStart" type="date" formControlName="dateStart" />
+        <input id="lecturerId" type="date" formControlName="lecturerId" />
+
+    </div>
+
+    <div formArrayName="syllabus">
+        @for ( syllabus of syllabusArray.controls; track $index) {
+        <div>
+            <input type="text" (blur)="checkIsFullField($index)" [formControl]="getSyllabusControl($index)" />
+        </div>
+        }
+        <button type="button" (click)="addSyllabus()">Add Syllabus Detail</button>
+    </div>
+
+    <button type="submit" (click)="submitForm()">Submit</button>
+    <!-- <mat-spinner></mat-spinner> -->
+</form>
