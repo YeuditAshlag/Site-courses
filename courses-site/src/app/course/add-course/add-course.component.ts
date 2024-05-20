@@ -89,7 +89,9 @@ export class AddCourseComponent {
   getSyllabusControl(index: number) {
     return this.syllabusArray.at(index) as FormControl;
   }
- 
+  return_func(){
+    this._router.navigate(['courses'])
+  }
 
  
   addSyllabus() {

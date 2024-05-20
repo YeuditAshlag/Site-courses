@@ -91,6 +91,15 @@ color: black;
 background-color: white;
 }
 
+.login_btn_btn{
+    color: black;
+background-color: #e92121;
+width: 200px;
+}
+.login_btn_btn:hover{
+    color: black;
+    background-color: white;
+    }
 .links{
 color: white;
 }

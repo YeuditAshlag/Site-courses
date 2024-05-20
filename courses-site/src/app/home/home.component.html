@@ -1,13 +1,79 @@
     
     <app-header></app-header>
-<div >
-    <header class="header">
-      <h1>Logical</h1>
-      <h2><p>This is the homepage of my courses site. Feel free to explore!</p></h2>
-    </header>
-    <main>   
-      <img class="home-container" src="../../assets/digital-online-education-concept-blank-space-laptop_255625-422.jpg" alt="Image" > 
-    </main>
-  </div>
-  <app-footer></app-footer>
+    <section id="one">
+      <div class="content">
+        <div class="text-content">
+          <h1 class="white">Join Us and Become a Tech Professional <strong></strong></h1>
+          <h4 class="blackish">Here you can find a wide range of courses in all available languages.</h4>
+          <div class="two-button">
+            <button class="t-btn btn">
+              <a href="/courses">Our Courses</a>
+            </button>
+            <button class="t-btn btn">
+              <a href="/user/login">Join Us</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="one-half" class="goblack">
+      <!-- <span><img src="https://i.pinimg.com/736x/32/3a/66/323a6655c54d00b88b00404f2cb6110e.jpg" alt=""></span> -->
+      <div class="half-content">
+        <div class="half__text">
+          <h1>About Us</h1>
+          <p>Welcome to our course website! Here, we believe in the power of learning and self-development through knowledge and fresh perspectives. Our world is full of opportunities, and through the courses we offer, we enable you to grow, acquire new knowledge, and develop skills that will help you achieve your goals.
 
+            Our courses cover a wide range of topics, from programming and application development, through digital marketing, to design and art fields. With experienced instructors and comprehensive learning materials, you can learn at your own pace and progress in areas that interest you.
+            
+            We believe that everyone can fulfill their full potential, and therefore we are committed to providing an inspiring and enriching learning experience. Whether you are looking to gain new knowledge, specialize in a new field, or simply be inspired and grow, you are welcome to join us and start the journey to realizing your dreams. Shall we begin?</p>
+        </div>
+        <div class="half__boxes">
+          <!-- <div class="box">
+            <span href="#"><i class="fas fa-paw logo"></i></span>
+            <h2>Our Mission</h2>
+            <p>In a diam et dui elit, orci urna vel id neque. Donec sed tempus enims.</p>
+          </div> -->
+          <div class="box">
+            <!-- <span href="#"><i class="fas fa-paw logo"></i></span> -->
+            <h2>Our Vision</h2>
+            <p>Our vision is to create a global community of lifelong learners who are passionate about continuous learning and self-improvement. We aspire to offer a diverse range of courses that cater to the evolving needs of learners in today's dynamic world.
+
+              Through our courses, we aim to inspire curiosity, foster creativity, and equip individuals with the knowledge and skills they need to succeed in their personal and professional lives. Our ultimate goal is to make learning engaging, enjoyable, and accessible to everyone, regardless of their location or background.
+              
+              Join us on this journey of discovery, growth, and empowerment. Together, let's unlock the endless possibilities that education has to offer."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="all_my_lectureres">
+      <h1><b>My Lectureres</b> </h1>
+      <div class="my_lectureres">
+      <div *ngFor="let imageUrl of instructorImages">
+        <img
+          [src]="imageUrl"
+          alt="Instructor Image"
+          class="instructor-image"
+        />
+      </div>
+      </div>
+      
+    </div>
+    <section id="six">
+      <h1>Many of our course participants have already seen their salaries double.</h1>
+      <button class="btn t-btn">Read More</button>
+    </section>
+    
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    
+    <script>
+      let x = document.querySelector(" .night")
+      x.addEventListener('click', () => {
+        let y = document.querySelectorAll('.goblack')
+        for (let i = 0; i < y.length; i += 1) {
+          y.item(i).classList.toggle("dark-mode");
+        }
+      })
+    </script>
+    <app-footer></app-footer>

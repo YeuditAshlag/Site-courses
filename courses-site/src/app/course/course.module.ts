@@ -26,12 +26,18 @@ import { EditComponent } from "../edit/edit.component";
 
 
 
+
 @NgModule({
     declarations: [AllCoursesComponent, CourseDetailsComponent, AddCourseComponent,EditComponent],
     providers: [CourseService, CategoriesService, MatGridListModule],
     exports: [MatCardModule, MatButtonModule],
     imports: [LearningTypeIconPipe, CourseRoutingModule, HttpClientModule, FormsModule, ReactiveFormsModule, CommonModule, MatCardModule, MatButtonModule, MatIconModule, MatFormFieldModule, MatInputModule, MatOptionModule, MatLabel, MatRadioModule, MatDatepickerModule, MatNativeDateModule,
-        MatFormFieldModule, MatSelectModule, MatInputModule, MatProgressSpinnerModule, HeaderComponent]
+        MatFormFieldModule, MatSelectModule, MatInputModule, MatProgressSpinnerModule, HeaderComponent,  MatCardModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatSelectModule,
+        MatButtonModule,
+        MatIconModule]
 })
 export class CourseModule {
 

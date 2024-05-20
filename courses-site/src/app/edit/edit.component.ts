@@ -88,7 +88,9 @@ export class EditComponent {
     return this.syllabusArray.at(index) as FormControl;
   }
  
-
+  return_func(){
+    this._router.navigate(['courses'])
+  }
  
   addSyllabus() {
     console.log("add")

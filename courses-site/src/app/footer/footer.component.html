@@ -1,172 +1,73 @@
-<!-- 
-<footer class="text-center text-lg-start bg-light text-muted">
- 
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-   
-      <div class="me-5 d-none d-lg-block">
-        <span>התחברו אלינו ברשתות החברתיות:</span>
-      </div>
-    
-      <div>
-        <a href="#" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="#" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="#" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-   
-    </section>
-  
-  
-   
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-     
-        <div class="row mt-3">
-        
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>מטבח מתוק
-            </h6>
-            <p>
-              אתר המתכונים הטוב ביותר בישראל.
-              פה תוכלו למצוא פטיפורים מיוחדים, עוגות חגיגיות והכל בטעמים מדהימים.
-            </p>
+<footer id="footer">
+  <div class="footer__container">
+      <div class="footer_about">
+          <div style="display: flex; align-items: center;">
+              <div style="border-radius: 50%; overflow: hidden; width: 10%; max-width: 100vw; margin-left: 2%;">
+                  <img src="../../assets/images/1.jpg"
+                      style="width: 100%;" alt="" loading="lazy">
+              </div>
+              <span style="margin-left: 10px;">Coursera</span>
           </div>
-        
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          
-            <h6 class="text-uppercase fw-bold mb-4">
-              צור קשר
-            </h6>
-            <p><i class="fas fa-home me-3"></i> רחוב החלוצים 12, תל אביב, ישראל</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              info sweetkitchen.com
-            </p>
-            <p><i class="fas fa-phone me-3"></i> 03-1234567</p>
-            <p><i class="fas fa-print me-3"></i> 03-1234568</p>
+          <p>Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod
+              ligul
+              aeget, enenatis dui.</p>
+      </div>
+      <div class="employees__categories">
+          <p>CATEGORIES</p>
+          <br>
+          <div class="categories">
+              <ul>
+                  <li> <a routerLink="/home" routerLinkActive="active"><b> Home Page</b></a></li>
+                  <li> <a routerLink="/courses"><b> all courses</b></a></li>
+                  <li> <a routerLink="/add"><b>add course</b> </a></li>
+                  <li> <a routerLink="courses/edit"><b>edit course</b> </a></li>
+                  <li> <a routerLink="user/register"><b> register</b></a></li>
+                  <li> <a routerLink="user/logout" routerLinkActive="active" *ngIf="connect()">>Logout</a></li>
+              </ul>
           </div>
-         
-        </div>
+      </div>
+      <!-- <div class="newsletter">
+          <p>NEWSLETTER</p>
+          <br>
+          <p style="font-size: smaller;">SUBSCRIBE HERE NOW</p>
+          <br>
+          <span>
+              <input type="text" placeholder="Email Address" #emailInput><button class="btn"
+                  (click)="sendEmail(emailInput.value)"><i class="far fa-paper-plane"></i></button>
+          </span>
+          <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+      </div> -->
+  </div>
+  <div class="copyright">
+      <p>&#169; 2024 Coursera. this a site built by | <strong>Yehudit Ashlag.</strong> </p>
+
+      
        
-      </div>
-    </section>
-  
-  
-   
-    <div class="footer">
-      <div class="footer-content">
-        <div class="footer-links">
-          <a routerLink="user/register">
-            <mat-icon>person_add</mat-icon>
-            הרשמה
-          </a>
-          <a routerLink="user/login">
-            <mat-icon>login</mat-icon>
-            כניסה
-          </a>
-          <a routerLink="user/logout">
-            <mat-icon>exit_to_app</mat-icon>
-            יציאה
-          </a>
-          <a routerLink="/recipe/add">
-            <mat-icon>add</mat-icon>
-            הוסף מתכון
-          </a>
-          <a routerLink="/recipe">
-            <mat-icon>cake</mat-icon>
-            מתכונים
-          </a>
-          <a routerLink="/home">
-            <mat-icon>home</mat-icon>
-            דף הבית
-          </a>
-        </div>
-        <div class="login-with">
-          <a routerLink="user/login">
-            <i class="material-icons">account_circle</i>
-            התחברות עם גוגל
-          </a>
-          <a routerLink="user/login">
-            <i class="material-icons">facebook</i>
-            התחברות עם פייסבוק
-          </a>
-        </div>
-      </div>
-    </div>
-  
-  
-
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 כל הזכויות שמורות:
-      <a class="text-reset fw-bold" href="mailto:yaelfrank@gmail.com">יעל פרנק</a>
-    </div>
-  
-  </footer>
- -->
+          <!-- <div><i class="fab fa-facebook-f"></i></div>
+          <div><i class="fab fa-linkedin-in"></i></div>
+          <div><i class="fab fa-twitter"></i></div>
+          <div><i class="fab fa-google-plus-g"></i></div>
+          <div><i class="fab fa-github"></i></div> -->
 
 
 
- <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="about-us">
-            <h2></h2>
-            <p>אתר הקורסים הטוב ביותר בישראל.</p>
-            <p>כאן לא תבזבזו את זמנכם לריק ,כאן תתחילו קריירה</p>
+          <div class="social-icons">
+            <div><i class="fab fa-facebook-f"></i></div>
+            <div><i class="fab fa-linkedin-in"></i></div>
+            <div><i class="fab fa-twitter"></i></div>
+            <div><i class="fab fa-instagram"></i></div>
+            <div><i class="fab fa-whatsapp"></i></div>
           </div>
+          
+<!--         
+            <div><mat-icon>facebook</mat-icon></div>
+            <div><mat-icon>linkedin</mat-icon></div>
+            <div><mat-icon>twitter</mat-icon></div>
+            <div><mat-icon>instagram</mat-icon></div>
+            <div><mat-icon>whatsapp</mat-icon></div>
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon> -->
+
+            <!-- <mat-icon class="mat-icon-rtl-mirror" svgIcon="thumb-up"></mat-icon> -->
         </div>
-        <div class="col-md-4">
-          <div class="contact-info">
-            <h2>צור קשר</h2>
-            <p>כתובת: רחוב גלבוע 30, תל אביב, ישראל</p>
-            <p>gmail:courseCal</p>
-            <p>טלפון: 03-1234567</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="social-media">
-            <h2>התחברו אלינו ברשתות החברתיות:</h2>
-            
-            <ul>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Google</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Github</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="links">
-        <ul>
-          <li><a routerLink="user/register" >Register</a></li>
-          <li><a routerLink="user/login">Log in</a></li>
-          <li><a  routerLink="user/logout">Log out</a></li>
-          <li><a routerLink="/recipe/add">add course </a></li>
-          <li><a routerLink="/recipe">courses</a></li>
-          <li><a href="#">דף הבית</a></li>
-        </ul>
-      </div>
-      <div class="copyright">
-        <p>&copy; 2024 כל הזכויות שמורות: <a href="#">Yeudit | Rutti | Shulamit </a></p>
-      </div>
-    </div>
-  </footer>
+  
+</footer>

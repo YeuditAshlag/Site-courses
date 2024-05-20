@@ -1,5 +1,6 @@
-
+<!-- 
 <app-header></app-header> 
+<div class="container">
 <form [formGroup]="courseForm">
 
     <div>
@@ -42,6 +43,72 @@
         <button type="button" (click)="addSyllabus()">Add Syllabus Detail</button>
     </div>
 
-    <button type="submit" (click)="submitForm()">Submit</button>
-    <!-- <mat-spinner></mat-spinner> -->
+    <button class="btn btn-danger" type="submit" (click)="submitForm()">Submit</button>
+    
 </form>
+</div>
+ 
+ -->
+
+
+
+
+
+<div class="container">
+    <form [formGroup]="courseForm" (ngSubmit)="submitForm()">
+      <mat-form-field>
+        <mat-label>Course name</mat-label>
+        <input matInput formControlName="namecourse" type="text">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Select course category</mat-label>
+        <mat-select formControlName="categoryId">
+          <mat-option *ngFor="let category of categories" [value]="category.codeCategory?.valueOf()">
+            {{ category.nameCategory }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Course Duration</mat-label>
+        <input matInput formControlName="accountLessons" type="number">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Image</mat-label>
+        <input matInput formControlName="imageUrl" type="text">
+        <img [src]="courseForm.controls['imageUrl'].value" *ngIf="courseForm.controls['imageUrl'].value"
+          style="max-width: 100px; max-height: 100px;">
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Learning way</mat-label>
+        <mat-select formControlName="wayOfLearning">
+          <mat-option value="0">Frontal</mat-option>
+          <mat-option value="1">Zoom</mat-option>
+        </mat-select>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Start date</mat-label>
+        <input matInput formControlName="dateStart" type="date">
+      </mat-form-field>
+  
+      <div formArrayName="syllabus">
+        <div *ngFor="let syllabus of syllabusArray.controls; let i = index">
+          <mat-form-field>
+            <mat-label>Syllabus Detail</mat-label>
+            <input matInput type="text" [formControl]="getSyllabusControl(i)" (blur)="checkIsFullField(i)">
+          </mat-form-field>
+        </div>
+        <button class="btn" mat-button type="button" (click)="addSyllabus()">Add Syllabus Detail</button>
+      </div>
+  
+      <button class="btn" mat-raised-button color="warn" type="submit">Submit</button>
+
+    <button class="btn_return" mat-button (click)="return_func()">return</button> 
+  
+    </form>
+  </div>
+  

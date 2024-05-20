@@ -7,6 +7,7 @@ import { ButtonModule } from 'primeng/button';
 import { CommonModule } from '@angular/common';
 
 
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -16,5 +17,16 @@ import { CommonModule } from '@angular/common';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  instructorImages: string[] = [
+    
+    '../../assets/images/lecturer1.png',
+    '../../assets/images/lecturer2.png',
+    '../../assets/images/lecturer1.png',
+    '../../assets/images/lecturer2.png',
+    '../../assets/images/lecturer1.png',
+    '../../assets/images/lecturer2.png',
+    '../../assets/images/lecturer1.png',
+    '../../assets/images/lecturer2.png',
+    // המשך רשימת נתיבי תמונות המרצים...
+  ];
 }

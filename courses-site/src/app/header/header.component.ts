@@ -35,8 +35,6 @@ export class HeaderComponent {
     this.router.navigate(['user/logout'])
   }
   toAdd(){
-
-    //פהההה יש בעיההההההההההההההההההה!!!!!!!!!!!!!!!!!
      if(localStorage.getItem("IsLecturer")=="true")
     this.router.navigate(['/add'])
   }

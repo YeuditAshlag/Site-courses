@@ -6,6 +6,7 @@ import { UserModule } from './user/user.module';
 import { CourseModule } from './course/course.module';
 
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
