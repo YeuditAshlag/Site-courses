@@ -11,7 +11,13 @@ The Tech Learning Hub is a cutting-edge platform designed to revolutionize the w
 ```bash
 git clone "https://github.com/YeuditAshlag/Site-courses"
 ```
-
+2. will enter the client folder and after will enter to 'courses-site' folder
+3. Install Angular dependencies in a new terminal
+```bash
+npm i
+```
+4. Move to the server folder and you run project
+Open your web browser and navigate to http://localhost:4200 to view the application. Now you have the project set up locally and ready for development.
 ## Usage
 
 ```python
