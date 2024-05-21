@@ -7,10 +7,9 @@ The Tech Learning Hub is a cutting-edge platform designed to revolutionize the w
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
+1. Clone the Repository: Open your terminal and run the following command to clone the repository to your local machine:
 ```bash
-pip install foobar
+git clone "https://github.com/YeuditAshlag/Site-courses"
 ```
 
 ## Usage
