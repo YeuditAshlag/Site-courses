@@ -3,7 +3,9 @@
 Welcome to the Tech Learning Hub!
 
 The Tech Learning Hub is a cutting-edge platform designed to revolutionize the way developers and tech enthusiasts learn and collaborate. With this platform, users can dive into the world of programming and technology, accessing a vast array of courses, tutorials, and resources.
-
+## the system was developed in languages
+Frontend: Angular
+Backend: .NET
 
 ## Installation
 
