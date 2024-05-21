@@ -642,7 +642,10 @@ two
 }
 
 #six {
-  background: url(https://i.pinimg.com/564x/4c/50/85/4c5085f306c3e14bb56a39adf1640e7e.jpg) top fixed no-repeat;
+  background: url('../../assets/images/money.png')  top fixed no-repeat;
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
   /* background: url(https://i.pinimg.com/736x/19/26/7b/19267bfd939c114bfdd58be76161cdf0.jpg) top fixed no-repeat; */
   color: black;
   padding: 80px 3%;
@@ -655,6 +658,7 @@ two
   letter-spacing: 1px;
   margin: 20px 0 20px 0;
 }
+
 
 /* seven seven seven */
 
@@ -1082,7 +1086,8 @@ text-align: center;
 color:rgb(8, 8, 8);
 }
 .my_lectureres {
-  background-color: rgb(94, 128, 241); /* רקע אפור בהיר */
+  background-color: rgb(74, 74, 219); /* רקע אפור בהיר */
+  
   padding: 50px 0; /* מרווח מלמעלה ומלמטה */
 }
 
