@@ -35,7 +35,7 @@ Now open your web browser and navigate to http://localhost:4200 to view the appl
 6. Anyone who studies and watches Coursera courses, his salary increases
 ![צילום מסך 2024-05-21 191928](https://github.com/YeuditAshlag/Site-courses/assets/148490087/a8fd5864-f35a-47c6-91a1-ffb4afb08386)
 7. A footer of home page
-![צילום מסך 2024-05-21 192039](https://github.com/YeuditAshlag/Site-courses/assets/148490087/80dcb65e-5975-43a8-a8cc-306e57e8d42f)
+![צילום מסך 2024-05-22 194103](https://github.com/YeuditAshlag/Site-courses/assets/148490087/b3369fca-3fc4-48a1-ba57-4fe2933b56f5)
 8. If you are a lecturer in Coursera courses when you connect to the website you have access and the option to add a new course
 ![צילום מסך 2024-05-22 012941](https://github.com/YeuditAshlag/Site-courses/assets/148490087/56141a87-71c0-4f9b-bef0-35fe23f38748)
 9. If you are a lecturer in Coursera courses when you connect to the website you have access and the option to update a course that you of his lecturer
